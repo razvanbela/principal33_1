@@ -1,15 +1,32 @@
-body{
+body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(90deg,#2980b9,#8e44ad);
+    background: linear-gradient(90deg, #025091, #71c5ee);
     height: 100vh;
     overflow: hidden;
 }
-.container{
+.header{
     display: flex;
     justify-content: center;
+    color: aliceblue;
+    font-size: 50px;
+    height: 75px;
+    margin: 0;
+    padding: 0;
+}
+.cal{
+    position: absolute;
+    top: 20%;
+    left: 15%;
 }
 
-input{
-    border-radius: 25px;
+.sched{
+    position: absolute;
+    top:20%;
+    left:60%;
+}
+
+input {
+    height: 50px;
+    width: 50px;
 }
