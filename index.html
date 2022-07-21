@@ -12,68 +12,129 @@
 
 <body>
 <div class="header">
-  Calendar
+    Calendar
 </div>
 <div class="cal">
     <div>
         <h2>
-        Month
+            Month
         </h2>
     </div>
+    <div class="change-month">
+        <input type="button" name="left" value="<">
+        <input type="button" name="right" value=">">
+    </div>
     <table>
-        <thead>
-        <tr>
-            <th>Mon</th>
-            <th>Tue</th>
-            <th>Wen</th>
-            <th>Thu</th>
-            <th>Fri</th>
-            <th>Sat</th>
-            <th>Sun</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-
-            <td><input type="button" id="btn" value="1"></td>
-            <td><input type="button" value="2" onclick="alertDay(value)"></td>
-            <td><input type="button" value="3" onclick="alertDay(value)"></td>
-            <td><input type="button" value="4" onclick="alertDay(value)"></td>
-            <td><input type="button" value="5" onclick="alertDay(value)"></td>
-            <td><input type="button" value="6" onclick="alertDay(value)"></td>
-            <td><input type="button" value="7" onclick="alertDay(value)"></td>
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>Wen</th>
+        <th>Thu</th>
+        <th>Fri</th>
+        <th>Sat</th>
+        <th>Sun</th>
         </tr>
         <tr>
-            <td><input type="button" value="8 " onclick="alertDay(value)"></td>
-            <td><input type="button" value="9 " onclick="alertDay(value)"></td>
-            <td><input type="button" value="10" onclick="alertDay(value)"></td>
-            <td><input type="button" value="11" onclick="alertDay(value)"></td>
-            <td><input type="button" value="12" onclick="alertDay(value)"></td>
-            <td><input type="button" value="13" onclick="alertDay(value)"></td>
-            <td><input type="button" value="14" onclick="alertDay(value)"></td>
+            <td class="day">
+                <span data-date="2022-01-01">1</span>
+            </td>
+            <td class="day">
+                <span data-date="2022-01-02">2</span>
+            </td>
+            <td class="day">
+                <span data-date="2022-01-03">3</span>
+            </td>
+            <td class="day">
+                <span data-date="2022-01-04">4</span>
+            </td>
+            <td class="day">
+                <span data-date="2022-01-05">5</span>
+            </td>
+            <td class="day weekend">
+                <span data-date="2022-01-06">6</span>
+            </td>
+            <td class="day weekend">
+                <span data-date="2022-01-07">7</span>
+            </td>
         </tr>
         <tr>
-            <td><input type="button" value="15" onclick="alertDay(value)"></td>
-            <td><input type="button" value="16" onclick="alertDay(value)"></td>
-            <td><input type="button" value="17" onclick="alertDay(value)"></td>
-            <td><input type="button" value="18" onclick="alertDay(value)"></td>
-            <td><input type="button" value="19" onclick="alertDay(value)"></td>
-            <td><input type="button" value="20" onclick="alertDay(value)"></td>
-            <td><input type="button" value="21" onclick="alertDay(value)"></td>
+            <td class="day">
+                <span data-date="2022-01-08">8</span>
+            </td>
+            <td class=day>
+                <span data-date="2022-01-09">9</span>
+            </td>
+            <td class="day">
+                <span data-date="2022-01-10">10</span>
+            </td>
+            <td class="day">
+                <span data-date="2022-01-11">11</span>
+            </td>
+            <td class="day">
+                <span data-date="2022-01-12">12</span>
+            </td>
+            <td class="day weekend">
+                <span data-date="2022-01-13">13</span>
+            </td>
+            <td class="day weekend">
+                <span data-date="2022-01-14">14</span>
+            </td>
         </tr>
         <tr>
-            <td><input type="button" value="22" onclick="alertDay(value)"></td>
-            <td><input type="button" value="23" onclick="alertDay(value)"></td>
-            <td><input type="button" value="24" onclick="alertDay(value)"></td>
-            <td><input type="button" value="25" onclick="alertDay(value)"></td>
-            <td><input type="button" value="26" onclick="alertDay(value)"></td>
-            <td><input type="button" value="27" onclick="alertDay(value)"></td>
-            <td><input type="button" value="28" onclick="alertDay(value)"></td>
+            <td class="day">
+                <span data-date="2022-01-15">15</span>
+            </td>
+            <td class=day>
+                <span data-date="2022-01-16">16</span>
+            </td>
+            <td class="day">
+                <span data-date="2022-01-17">17</span>
+            </td>
+            <td class="day">
+                <span data-date="2022-01-18">18</span>
+            </td>
+            <td class="day">
+                <span data-date="2022-01-19">19</span>
+            </td>
+            <td class="day weekend">
+                <span data-date="2022-01-20">20</span>
+            </td>
+            <td class="day weekend">
+                <span data-date="2022-01-21">21</span>
+            </td>
         </tr>
         <tr>
-            <td><input type="button" value="29" onclick="alertDay(value)"></td>
-            <td><input type="button" value="30" onclick="alertDay(value)"></td>
-            <td><input type="button" value="31" onclick="alertDay(value)"></td>
+            <td class="day">
+                <span data-date="2022-01-22">22</span>
+            </td>
+            <td class="day">
+                <span data-date="2022-01-23">23</span>
+            </td>
+            <td class="day">
+                <span data-date="2022-01-24">24</span>
+            </td>
+            <td class="day">
+                <span data-date="2022-01-25">25</span>
+            </td>
+            <td class="day">
+                <span data-date="2022-01-26">26</span>
+            </td>
+            <td class="day weekend">
+                <span data-date="2022-01-27">27</span>
+            </td>
+            <td class="day weekend">
+                <span data-date="2022-01-28">28</span>
+            </td>
+        </tr>
+        <tr>
+            <td class="day">
+                <span data-date="2022-01-29">29</span>
+            </td>
+            <td class="day">
+                <span data-date="2022-01-30">30</span>
+            </td>
+            <td class="day">
+                <span data-date="2022-01-31">31</span>
+            </td>
         </tr>
         </tbody>
     </table>
@@ -83,61 +144,21 @@
     <div>
         <h3>Schedule for</h3>
     </div>
-    <table>
-        <h1 id="text"></h1>
-        <tr>
-            <td>IMG</td>
-            <td>Leslie Alexander</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>9 PM - 12 PM</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>Leslie Alexander</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>9 PM - 12 PM</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>Leslie Alexander</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>9 PM - 12 PM</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>Leslie Alexander</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>9 PM - 12 PM</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>Leslie Alexander</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>9 PM - 12 PM</td>
-        </tr>
-    </table>
+    <div>Amalie Nielsen</div>
+    <div>9PM- 10PM</div>
+
 </div>
 
-
-
 <script>
-    let btn_element = document.getElementById("btn");
 
-    btn_element.addEventListener("click", () => {
-        document.getElementById("text").innerHTML = "Day 1";
+    document.querySelectorAll('.day').forEach(item => {
+        item.addEventListener('click', event => {
+            alert(event.target.innerText)
+        })
     })
 
 </script>
+
 
 </body>
 </html>
