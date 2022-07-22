@@ -15,7 +15,7 @@ body {
     margin: 0;
     padding: 0;
 }
-.cal{
+.container-cal{
     position: absolute;
     top: 20%;
     left: 15%;
@@ -24,9 +24,9 @@ td{
     text-align: center;
 }
 td:hover{
-    background: #71c5ee;
+    background: #025091;
 }
-.sched{
+.container-sched{
     position: absolute;
     top:20%;
     left:60%;

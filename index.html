@@ -14,7 +14,7 @@
 <div class="header">
     Calendar
 </div>
-<div class="cal">
+<div class="container-cal">
     <div>
         <h2>
             Month
@@ -24,123 +24,124 @@
         <input type="button" name="left" value="<">
         <input type="button" name="right" value=">">
     </div>
-    <table>
-        <th>Mon</th>
-        <th>Tue</th>
-        <th>Wen</th>
-        <th>Thu</th>
-        <th>Fri</th>
-        <th>Sat</th>
-        <th>Sun</th>
-        </tr>
-        <tr>
-            <td class="day">
-                <span data-date="2022-01-01">1</span>
-            </td>
-            <td class="day">
-                <span data-date="2022-01-02">2</span>
-            </td>
-            <td class="day">
-                <span data-date="2022-01-03">3</span>
-            </td>
-            <td class="day">
-                <span data-date="2022-01-04">4</span>
-            </td>
-            <td class="day">
-                <span data-date="2022-01-05">5</span>
-            </td>
-            <td class="day weekend">
-                <span data-date="2022-01-06">6</span>
-            </td>
-            <td class="day weekend">
-                <span data-date="2022-01-07">7</span>
-            </td>
-        </tr>
-        <tr>
-            <td class="day">
-                <span data-date="2022-01-08">8</span>
-            </td>
-            <td class=day>
-                <span data-date="2022-01-09">9</span>
-            </td>
-            <td class="day">
-                <span data-date="2022-01-10">10</span>
-            </td>
-            <td class="day">
-                <span data-date="2022-01-11">11</span>
-            </td>
-            <td class="day">
-                <span data-date="2022-01-12">12</span>
-            </td>
-            <td class="day weekend">
-                <span data-date="2022-01-13">13</span>
-            </td>
-            <td class="day weekend">
-                <span data-date="2022-01-14">14</span>
-            </td>
-        </tr>
-        <tr>
-            <td class="day">
-                <span data-date="2022-01-15">15</span>
-            </td>
-            <td class=day>
-                <span data-date="2022-01-16">16</span>
-            </td>
-            <td class="day">
-                <span data-date="2022-01-17">17</span>
-            </td>
-            <td class="day">
-                <span data-date="2022-01-18">18</span>
-            </td>
-            <td class="day">
-                <span data-date="2022-01-19">19</span>
-            </td>
-            <td class="day weekend">
-                <span data-date="2022-01-20">20</span>
-            </td>
-            <td class="day weekend">
-                <span data-date="2022-01-21">21</span>
-            </td>
-        </tr>
-        <tr>
-            <td class="day">
-                <span data-date="2022-01-22">22</span>
-            </td>
-            <td class="day">
-                <span data-date="2022-01-23">23</span>
-            </td>
-            <td class="day">
-                <span data-date="2022-01-24">24</span>
-            </td>
-            <td class="day">
-                <span data-date="2022-01-25">25</span>
-            </td>
-            <td class="day">
-                <span data-date="2022-01-26">26</span>
-            </td>
-            <td class="day weekend">
-                <span data-date="2022-01-27">27</span>
-            </td>
-            <td class="day weekend">
-                <span data-date="2022-01-28">28</span>
-            </td>
-        </tr>
-        <tr>
-            <td class="day">
-                <span data-date="2022-01-29">29</span>
-            </td>
-            <td class="day">
-                <span data-date="2022-01-30">30</span>
-            </td>
-            <td class="day">
-                <span data-date="2022-01-31">31</span>
-            </td>
-        </tr>
-        </tbody>
-    </table>
+    <div class="cal-days">
+        <table>
+            <tr>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wen</th>
+                <th>Thu</th>
+                <th>Fri</th>
+                <th>Sat</th>
+                <th>Sun</th>
+            </tr>
+            <tr>
+                <td class="day">
+                    <span data-date="2022-01-01">1</span>
+                </td>
+                <td class="day">
+                    <span data-date="2022-01-02">2</span>
+                </td>
+                <td class="day">
+                    <span data-date="2022-01-03">3</span>
+                </td>
+                <td class="day">
+                    <span data-date="2022-01-04">4</span>
+                </td>
+                <td class="day">
+                    <span data-date="2022-01-05">5</span>
+                </td>
+                <td class="day weekend">
+                    <span data-date="2022-01-06">6</span>
+                </td>
+                <td class="day weekend">
+                    <span data-date="2022-01-07">7</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="day">
+                    <span data-date="2022-01-08">8</span>
+                </td>
+                <td class=day>
+                    <span data-date="2022-01-09">9</span>
+                </td>
+                <td class="day">
+                    <span data-date="2022-01-10">10</span>
+                </td>
+                <td class="day">
+                    <span data-date="2022-01-11">11</span>
+                </td>
+                <td class="day">
+                    <span data-date="2022-01-12">12</span>
+                </td>
+                <td class="day weekend">
+                    <span data-date="2022-01-13">13</span>
+                </td>
+                <td class="day weekend">
+                    <span data-date="2022-01-14">14</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="day">
+                    <span data-date="2022-01-15">15</span>
+                </td>
+                <td class=day>
+                    <span data-date="2022-01-16">16</span>
+                </td>
+                <td class="day">
+                    <span data-date="2022-01-17">17</span>
+                </td>
+                <td class="day">
+                    <span data-date="2022-01-18">18</span>
+                </td>
+                <td class="day">
+                    <span data-date="2022-01-19">19</span>
+                </td>
+                <td class="day weekend">
+                    <span data-date="2022-01-20">20</span>
+                </td>
+                <td class="day weekend">
+                    <span data-date="2022-01-21">21</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="day">
+                    <span data-date="2022-01-22">22</span>
+                </td>
+                <td class="day">
+                    <span data-date="2022-01-23">23</span>
+                </td>
+                <td class="day">
+                    <span data-date="2022-01-24">24</span>
+                </td>
+                <td class="day">
+                    <span data-date="2022-01-25">25</span>
+                </td>
+                <td class="day">
+                    <span data-date="2022-01-26">26</span>
+                </td>
+                <td class="day weekend">
+                    <span data-date="2022-01-27">27</span>
+                </td>
+                <td class="day weekend">
+                    <span data-date="2022-01-28">28</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="day">
+                    <span data-date="2022-01-29">29</span>
+                </td>
+                <td class="day">
+                    <span data-date="2022-01-30">30</span>
+                </td>
+                <td class="day">
+                    <span data-date="2022-01-31">31</span>
+                </td>
+            </tr>
+        </table>
+    </div>
 </div>
-
-<div class="sched">
+<div class="container-sched">
     <div>
         <h3>Schedule for</h3>
     </div>
@@ -158,7 +159,6 @@
     })
 
 </script>
-
 
 </body>
 </html>
